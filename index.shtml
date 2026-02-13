@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Black Holes: The Event Horizon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="render-info">
+        <h1>Terpconnect Static Site</h1>
+        <h2>Render Info</h2>
+        <ul>
+            <li><strong>Name:</strong> Ismail Akdere</li>
+            <li><strong>Render Location:</strong> <a href=https://www.terpconnect.umd.edu/~iakdere/terpconnect_static_site/>https://www.terpconnect.umd.edu/~iakdere/terpconnect_static_site/</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <h1>The Physics of Singularity</h1>
+        <p>
+            A black hole is a region of spacetime where gravity is so strong, not even particles or 
+            electromagnetic radiation such as light, can escape from it. The theory of general relativity predicts 
+            that a sufficiently compact mass can deform spacetime to form a black hole.
+        </p>
+
+        <h2>Notable Black Hole Candidates</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Target Name</th>
+                    <th>Classification</th>
+                    <th>Distance (Light Years)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sagittarius A*</td>
+                    <td>Supermassive</td>
+                    <td>26,000</td>
+                </tr>
+                <tr>
+                    <td>Cygnus X-1</td>
+                    <td>Stellar-mass</td>
+                    <td>6,070</td>
+                </tr>
+                <tr>
+                    <td>M87*</td>
+                    <td>Supermassive</td>
+                    <td>55 Million</td>
+                </tr>
+                <tr>
+                    <td>V616 Monocerotis</td>
+                    <td>Stellar-mass</td>
+                    <td>3,300</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Multimedia Transmission</h2>
+        <p>
+            Understand what exactly black holes are, their physics, and how they affect the universe in this fascinating video: 
+            <a href="https://www.youtube.com/watch?v=3pAnRKD4raY" target="_blank">Travel INSIDE a Black Hole</a>
+        </p>
+    </main>
+
+    <footer>
+        <strong>Last Modified: </strong><br>
+    </footer>
+
+    <strong>Last Modified: </strong><!--#echo var="LAST_MODIFIED" --><br>
+
+</body>
+</html>

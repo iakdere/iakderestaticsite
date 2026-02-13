@@ -1,0 +1,79 @@
+/* CSS Custom Property (Variable) Requirement */
+:root {
+    --accent-gold: #ffcc00;
+    --bg-overlay: rgba(0, 0, 0, 0.85);
+    --row-even: rgba(255, 204, 0, 0.15);
+    --row-odd: rgba(255, 255, 255, 0.05);
+}
+
+body {
+    /* Background Picture Requirement */
+    background-image: url('https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+    
+    /* Google Font Requirement */
+    font-family: 'Audiowide', cursive;
+    color: white;
+    margin: 20px auto;
+    max-width: 900px;
+    line-height: 1.6;
+}
+
+/* Render Info Box (Matching the example site styling) */
+.render-info {
+    background-color: var(--bg-overlay);
+    border: 2px solid white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.render-info h1, .render-info h2 {
+    margin-top: 0;
+    color: var(--accent-gold);
+}
+
+main {
+    background-color: var(--bg-overlay);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+a {
+    color: var(--accent-gold);
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #444;
+    text-align: left;
+}
+
+thead {
+    background-color: #222;
+    color: var(--accent-gold);
+}
+
+/* Alternating Rows Requirement */
+tbody tr:nth-child(even) {
+    background-color: var(--row-even);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--row-odd);
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #888;
+}
